@@ -1,0 +1,15 @@
+{
+    "name": "alan/todo-list",
+    "description": "a todo list cqrs+es for practice",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alan riveros",
+            "email": "alan.gabriel.riveros@gmail.com"
+        }
+    ],
+    "require": {
+        
+    }
+}
