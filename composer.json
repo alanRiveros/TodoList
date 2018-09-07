@@ -14,12 +14,12 @@
         "mockery/mockery": "dev-master"
     },
     "require": {
-        "slim/slim": "^3.0",
-        "Infrastructure\\": "infrastructure/"
+        "slim/slim": "^3.0"
     },
     "autoload":{
         "psr-4": {
-            "Todo\\": "src/"
+            "Todo\\": "src/",
+            "Infrastructure\\": "infrastructure/"
         }
     },
     "autoload-dev": {
