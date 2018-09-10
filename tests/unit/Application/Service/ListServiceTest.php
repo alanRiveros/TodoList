@@ -6,6 +6,9 @@ class ListServiceTest extends \PHPUnit\Framework\TestCase
 {
     use MockeryPHPUnitIntegration;
 
+    /*
+    * este test es re boludo pero sirve para probar que funcionen los tests
+    */
     public function testListAllTasksReturnArray(){
         $listRepo = \Mockery::mock('ListRepository', '\Infrastructure\iListPersistence');
         $listRepo
