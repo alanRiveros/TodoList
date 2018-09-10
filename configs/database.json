@@ -1,0 +1,6 @@
+{
+    "dbHost": "localhost",
+    "dbName": "todo_list",
+    "user": "alan",
+    "password": "abc789"
+}

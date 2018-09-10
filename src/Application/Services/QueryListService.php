@@ -1,9 +1,16 @@
 <?php
 namespace Todo\Application\Services;
 
-class QueryListService
-{
+use \Infrastructure\iListPersistence;
+
+class QueryListService {
+
+    protected $repo;
+
+    public function __construct(iListPersistence $listRepo){
+        $this->repo = $listRepo;
+    }
     public function listAll(){
-        return ['primero' => 'hola', 'segundo' => 'chau'];
+        return $this->repo->getAll();
     }
 }
